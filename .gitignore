@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/chatbot-angular/dist
+/chatbot-angular/tmp
+/chatbot-angular/out-tsc
+/chatbot-angular/bazel-out
+
+# Node
+/chatbot-angular/node_modules
+chatbot-angular/npm-debug.log
+chatbot-angular/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+chatbot-angular/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+chatbot-angular/.angular/cache
+chatbot-angular/.sass-cache/
+chatbot-angular/connect.lock
+chatbot-angular/coverage
+chatbot-angular/libpeerconnection.log
+chatbot-angulartestem.log
+chatbot-angular/typings
+
+# System files
+chatbot-angular/.DS_Store
+chatbot-angular/Thumbs.db
+
+# Backend
+/backend/node_modules
